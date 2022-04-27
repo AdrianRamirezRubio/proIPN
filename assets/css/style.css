@@ -1,6 +1,10 @@
 /********** Template CSS **********/
+.texto-justificado{
+    text-align: justify;
+    }
+
 :root {
-    --primary: #06BBCC;
+    --primary: #5e2129;
     --light: #F0FBFC;
     --dark: #181d38;
 }
