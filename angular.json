@@ -78,7 +78,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pro_IPN:build:production"
+              "browserTarget": "pro_IPN:build:production",
+              "proxyConfig":"proxy.conf.json"
             },
             "development": {
               "browserTarget": "pro_IPN:build:development"
@@ -108,6 +109,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

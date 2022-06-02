@@ -9,30 +9,44 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             
-            <a href="bienvenida" class="nav-item nav-link active">Home</a>
-            <a href="agradecimientos" class="nav-item nav-link">Agradecimientos</a>
+            <a routerLink="bienvenida" class="nav-item nav-link active">Inicio</a>
+            <a routerLink="agradecimientos" class="nav-item nav-link">Agradecimientos</a>
             <!-- <a href="courses.html" class="nav-item nav-link">Courses</a> -->
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cursos</a>
-                <div class="dropdown-menu fade-down m-0">
-                    
-                    <a href="unidad1" class="dropdown-item">Unidad 1</a>
-                    <a href="unidad2" class="dropdown-item">Unidad 2</a>
-                    <a href="unidad3" class="dropdown-item">Unidad 3</a>
-                </div>
-            </div>
-
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Acerca De</a>
                 <div class="dropdown-menu fade-down m-0">
-                    <a href="objetivo" class="dropdown-item">OBjetivo</a>
-                    <a href="usoDidactico" class="dropdown-item">Uso Didactico</a>
-                    <a href="bibliografia" class="dropdown-item">Bibliografia</a>
-                    <a href="glosario" class="dropdown-item">Glosario</a>
+                    <a routerLink="objetivo" class="dropdown-item">Objetivo</a>
+                    <a routerLink="usoDidactico" class="dropdown-item">Uso Didactico</a>
+                    <a routerLink="bibliografia" class="dropdown-item">Bibliografia</a>
+                    <a routerLink="glosario" class="dropdown-item">Glosario</a>
                 </div>
             </div>
-            <a href="/pages/creditos" class="nav-item nav-link">Contact</a>
-            <a href="bibliografia" class="nav-item nav-link">Bibliografia</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Unidades</a>
+                <div class="dropdown-menu fade-down m-0">
+                    <a class="nav-link active" href="#" disabled>Unidad-1 Integral Indefinida</a>
+                    <a routerLink="diferencialfuncion" class="dropdown-item">La diferencial de una Función</a>
+                    <a routerLink="algebraicas" class="dropdown-item">Algebraicas</a>
+                    <a routerLink="constanteIntegracion" class="dropdown-item">Constante de Integración</a>
+                    <a routerLink="expLogaritmicas" class="dropdown-item">Exponenciales Logaritmicas</a>
+                    <a routerLink="cambioVariable" class="dropdown-item">Con Cambio de Variable</a>
+                    <a routerLink="trigonometricasInversas" class="dropdown-item">Trigonometricas e Inversas</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="nav-link active" href="#" disabled>Unidad-2 Metodos de Integración</a>
+                    <a routerLink="integracionxPartes" class="dropdown-item">Integración por Partes</a>
+                    <a routerLink="potenciasTrigonometricas" class="dropdown-item">Por Potencias Trigonometricas</a>
+                    <a routerLink="sustitucionTrigonometricas" class="dropdown-item">Por Sustitución Trigonometricas</a>
+                    <a routerLink="fraccionesParciales" class="dropdown-item">Por Fracciones Parciales</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="nav-link active" href="#" disabled>Unidad-3 Integral Definida</a>
+                    <a routerLink="integralDefinida" class="dropdown-item">Integral Definida</a>
+                    <a routerLink="areaBajoLaCurva" class="dropdown-item">Área Bajo de la Curva</a>
+                    <a routerLink="areaEntreCurvas" class="dropdown-item">Área Entre Curvas</a>
+                    <a routerLink="volumeneDeRevolucion" class="dropdown-item">Volumenes de Revolución</a>
+                </div>
+            </div>
+            <a routerLink="/pages/creditos" class="nav-item nav-link">Contacto</a>
+            <a routerLink="bibliografia" class="nav-item nav-link">Bibliografia</a>
         </div>
        <!--  <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a> -->
     </div>

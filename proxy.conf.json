@@ -1,0 +1,8 @@
+{
+    "/proIPN/":{
+        "target":"https://adrianramirezrubio.github.io/proIPN",
+        "secure":false,
+        "changeOrigin":true 
+    }
+}
+
